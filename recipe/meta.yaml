@@ -1,5 +1,5 @@
 {% set name = "dessinemoi" %}
-{% set version = "25.1.0" %}
+{% set version = "26.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dessinemoi-{{ version }}.tar.gz
-  sha256: 18e7acbf0ed2cbe918aee1ae8389f3d2d399c9388407f7c734af6eb7d99fe4b9
+  sha256: 5e8f5e4e113b8c3c5fae9e4ab22bdf811f293b03ebd89c6e07a9119b8b682667
 
 build:
   noarch: python
